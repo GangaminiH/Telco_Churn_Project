@@ -21,6 +21,7 @@ Dataset: Telco Customer Churn
 Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download
 
 The dataset includes:
+
 •	Customer demographics
 •	Account information
 •	Services subscribed
@@ -74,27 +75,23 @@ Included in the final report:
 
 4. Results Summary
 
-model	accuracy
-Decision tree	009
-Neural network	hhu
+Decision tree accuracy: 0.753
+Neural network accuracy: 0.713
 
 5. How to Run
 
 1. Install dependencies
+
 pip install -r requirements.txt
-2. Run the notebook or .py script
-python train_models.py
-or open the notebook in Jupyter/Colab.
-6. Requirements
-Example requirements.txt (you can edit this):
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-tensorflow
-7. Report
-The full academic report, including:
+
+2. Run the notebook file
+
+Telco_Churn_Project.ipynb
+
+6. Report
+   
+The report includes:
+
 •	Methodology
 •	EDA insights
 •	Preprocessing
@@ -103,8 +100,11 @@ The full academic report, including:
 •	Ethical considerations
 •	Post-deployment strategy
 •	Appendix containing ALL source code
-…is located in the /report folder.
-8. GitHub Repository Link
+
+7. GitHub Repository Link
+
+https://github.com/GangaminiH/Telco_Churn_Project.git
 
 Acknowledgements
-Dataset originally obtained from the IBM Telco Customer Churn dataset published on Kaggle.
+
+Dataset is originally obtained from the IBM Telco Customer Churn dataset published on Kaggle.
