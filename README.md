@@ -103,7 +103,9 @@ Neural network accuracy: 0.713
 
 pip install -r requirements.txt
 
-2. Run the notebook file
+2. Upload the dataset locally
+
+3. Run the notebook file
 
 Telco_Churn_Project.ipynb
 
