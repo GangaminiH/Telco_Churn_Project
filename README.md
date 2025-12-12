@@ -11,8 +11,10 @@ It includes EDA, preprocessing, model development, hyperparameter tuning, evalua
 
 This project aims to build models that predict whether a telecom customer will churn (leave the service).
 Two machine learning models were developed:
+
 •	Decision Tree Classifier
 •	Neural Network (Keras / TensorFlow)
+
 Both models were evaluated and compared using appropriate metrics and visualizations.
 
 2. Dataset
@@ -23,9 +25,13 @@ Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=
 The dataset includes:
 
 •	Customer demographics
+
 •	Account information
+
 •	Services subscribed
+
 •	Charges & payment details
+
 •	Churn label (Yes/No)
 
 3. Key Components
@@ -33,15 +39,21 @@ The dataset includes:
 Exploratory Data Analysis (EDA)
 
 •	Visualizations of churn distribution
+
 •	Boxplots of key numerical variables
+
 •	Missing value analysis
+
 •	Data type corrections
 
 Preprocessing
 
 •	Handling missing values
+
 •	One-hot encoding of categorical features
+
 •	Scaling numerical variables
+
 •	Train-test split with stratification
 
 Model Development
@@ -49,6 +61,7 @@ Model Development
 •	Decision Tree
 	  - Baseline model
     - GridSearchCV hyperparameter tuning
+	
 •	Neural Network
     - Sequential model
     - Dense + Dropout layers
@@ -66,11 +79,17 @@ Evaluation
 Ethical & Deployment Considerations
 
 Included in the final report:
+
 •	Bias mitigation
+
 •	Fairness evaluation
+
 •	Transparency
+
 •	Privacy concerns
+
 •	Monitoring model drift
+
 •	Post-deployment updates
 
 4. Results Summary
@@ -93,12 +112,19 @@ Telco_Churn_Project.ipynb
 The report includes:
 
 •	Methodology
+
 •	EDA insights
+
 •	Preprocessing
+
 •	Results
+
 •	Model comparison
+
 •	Ethical considerations
+
 •	Post-deployment strategy
+
 •	Appendix containing ALL source code
 
 7. GitHub Repository Link
